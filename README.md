@@ -1,8 +1,5 @@
-# visual-textual-tweets-retrival
-A visual-textual approach to enhace the on-topic tweets selection
-# Project Title
-
-One Paragraph of project description goes here
+# Visual-textual-tweets-retrival
+This project presents an automatic approach to labelling on-topic social media posts using a visual-textual fused vector. Two convolutional neural networks (CNNs), the Inception-V3 CNN and word embedded CNN, are applied to extract visual and textual features, respectively, from social media posts. Well-trained on our designed training sets, the extracted visual and textual features are further concatenated to form a fused feature to feed the final classification process.
 
 ## Getting Started
 
