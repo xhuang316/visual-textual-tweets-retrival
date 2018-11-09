@@ -14,8 +14,7 @@ GPU supported TensorFlow
 CUDA v9.0
 
 ## Training word2vec
-
-
+Use Word2vec_training or Word2vec_training_separated_CSV
 
 ## Training word embedded CNN
 
