@@ -7,11 +7,9 @@ This implementation is based on Python coding environment. A high-level neural n
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+Python 3.6.5
+GPU supported TensorFlow
+CUDA v9.0
 
 ### Installing
 
