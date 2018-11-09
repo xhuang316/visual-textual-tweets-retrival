@@ -14,7 +14,7 @@ GPU supported TensorFlow
 CUDA v9.0
 
 ## Training word2vec
-Use Word2vec_training or Word2vec_training_separated_CSV
+Given the fact that textual patterns differ a lot in short-text posts in social media compared to formal sources including news and formal articles, it is necessary to train word vectors specifically for social media posts. To acquire word vectors, the technique used in this study is Word2Vec, a shallow neural network with single hidden layer, but proved to be powerful in providing 300-dimention vectors representing the word characteristics. Use Word2vec_training or Word2vec_training_separated_CSV to train the network in order to assign vectors to different words. Word2vec_training accepts single CSV as corpus input while Word2vec_training_separated_CSV accepts separated CSV as corpus input. 
 
 ## Training word embedded CNN
 
