@@ -5,7 +5,7 @@ This project presents an automatic approach to labelling on-topic social media p
 
 This implementation is based on Python coding environment. A high-level neural network API, Keras (https://keras.io/), is used to enable fast experimentation. The code requires python 3.6 compiler and the installation of Keras with TensorFlow backend. The authors recommend the usage of GPU-supported TensorFlow to reduce the training time. 
 
-### Prerequisites
+## Prerequisites
 
 Python 3.6.5
 
@@ -13,7 +13,13 @@ GPU supported TensorFlow
 
 CUDA v9.0
 
-### Installing
+## Training word2vec
+
+## Training word embedded CNN
+
+## Transfer learning Inception V3
+
+## Fused CNN 
 
 A step by step series of examples that tell you how to get a development env running
 
