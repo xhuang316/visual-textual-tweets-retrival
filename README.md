@@ -15,11 +15,13 @@ CUDA v9.0
 
 ## Training word2vec
 
+
+
 ## Training word embedded CNN
 
 ## Transfer learning Inception V3
 
-## Fused CNN 
+## Fused CNN architecture
 
 A step by step series of examples that tell you how to get a development env running
 
