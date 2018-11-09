@@ -20,7 +20,7 @@ Given the fact that textual patterns differ a lot in short-text posts in social 
 The word embedded CNN in this project modifies the architecture proposed by Kim (2014) for text classification. The texts are given a binary label after the classiciation process. Word2Vec_embedded_CNN.py conducts the training process.  Word2Vec_embedded_CNN_K_Folds utilizes K fold cross validation. The training dataset is available upon request. 
 
 ## Transfer learning Inception V3
-We transder leaned Inception V3 network to a binary classifier (on-topic or off-topic) specific to flooding case. Several top layers specific to ILSVRC problems are removed and new layers are added to the model in the following order: AvgPool, FC (1024 features), Dropout and Softmax (2 classes). A two stage transfer learning approach is applied:
+We transder leaned Inception V3 network to a binary classifier (on-topic or off-topic) specific to flooding case. Several top layers specific to ILSVRC problems are removed and new layers are added to the model in the following order: AvgPool, FC (1024 features), Dropout and Softmax (2 classes). A two-stage transfer learning approach is applied:
 
 Stage 1: freeze all but the penultimate layer and re-train the last FC layer;
 
