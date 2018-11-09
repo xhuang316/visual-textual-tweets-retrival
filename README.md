@@ -14,10 +14,10 @@ GPU supported TensorFlow
 CUDA v9.0
 
 ## Training word2vec
-Given the fact that textual patterns differ a lot in short-text posts in social media compared to formal sources including news and formal articles, it is necessary to train word vectors specifically for social media posts. To acquire word vectors, the technique used in this study is Word2Vec, a shallow neural network with single hidden layer, but proved to be powerful in providing 300-dimention vectors representing the word characteristics. Use Word2vec_training or Word2vec_training_separated_CSV to train the network in order to assign vectors to different words. Word2vec_training accepts single CSV as corpus input while Word2vec_training_separated_CSV accepts separated CSV as corpus input. The training corpus is available upon request.
+Given the fact that textual patterns differ a lot in short-text posts in social media compared to formal sources including news and formal articles, it is necessary to train word vectors specifically for social media posts. To acquire word vectors, the technique used in this study is Word2Vec, a shallow neural network with single hidden layer, but proved to be powerful in providing 300-dimention vectors representing the word characteristics. Use Word2vec_training or Word2vec_training_separated_CSV to train the network in order to assign vectors to different words. Word2vec_training.py accepts single CSV as corpus input while Word2vec_training_separated_CSV.py accepts separated CSV as corpus input. The training corpus is available upon request.
 
 ## Training word embedded CNN
-The word embedded CNN in this peoject modifies the architecture proposed by Kim (2014) for text classification. The texts are given a binary label after the classiciation process. The training dataset is available upon request. 
+The word embedded CNN in this project modifies the architecture proposed by Kim (2014) for text classification. The texts are given a binary label after the classiciation process. Word2Vec_embedded_CNN.py conducts the training process.  Word2Vec_embedded_CNN_K_Folds utilizes K fold cross validation. The training dataset is available upon request. 
 
 ## Transfer learning Inception V3
 We transder leaned Inception V3 network to a binary classifier (on-topic or off-topic) specific to flooding case. Several top layers specific to ILSVRC problems are removed and new layers are added to the model in the following order: AvgPool, FC (1024 features),
