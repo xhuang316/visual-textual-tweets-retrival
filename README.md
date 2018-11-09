@@ -30,8 +30,7 @@ Stage 2: unfreeze top 2 inception blocks and fine tune their weights.
 The training dataset is available upon request.
 
 ## Fused CNN architecture
-
-
+The fused CNN architecure concatenates vectors from two well-trained CNN architecture above, resulting in a 2048-dimension vector characterizing the textual and visual information derived from a social media post. It should be noted that the lack of information is padded with 0.
 
 ## Authors
 
